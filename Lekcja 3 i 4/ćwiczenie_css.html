@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Uczymy się CSS</title>
+        <style>
+        
+            body {
+                background-color:hotpink;
+            }
+            h1{
+                color: #4AEB44;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 36px;
+                text-decoration:underline overline;
+            }
+            p{
+                animation: animacja2 10s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes animacja{
+                0% {background-color: red;}
+                25% {background-color: yellow;}
+                50% {background-color: purple;} 
+                75% {background-color: green;}
+                100% {background-color: blue;}
+            }
+            
+            @keyframes animacja2{
+                0% {font-size: 10px;}
+                50% {font-size: 15px;}
+                100% {font-size: 40px;}
+            }
+
+            /*
+            Zadanie 1.
+            Wykonaj animację wielkości czcionki. Animacja powinna posiadać 3 klatki kluczowe 10->15->40
+            */
+            
+        </style>
+    </head>
+    <body>
+        <h1>Nasz pierwszy przykład z CSS</h1>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>       
+        
+    </body>
+</html>
